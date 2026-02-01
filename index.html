@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 Pour toi, Estelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particules de fond -->
+    <div class="particles-container"></div>
+
+    <div class="container">
+        <!-- Boutons d'interaction initiaux -->
+        <div class="initial-buttons">
+            <button class="magic-reveal-btn" onclick="startMagicReveal()">
+                <span class="btn-icon">✨</span>
+                <span class="btn-text">shayla land</span>
+            </button>
+        </div>
+
+        <!-- Overlay pour l'animation de révélation -->
+        <div class="reveal-overlay" id="revealOverlay">
+            <div class="submerge-container" id="submergeContainer">
+                <!-- Les éléments qui vont submerger -->
+            </div>
+        </div>
+
+        <!-- Contenu principal (masqué au départ) -->
+        <div class="content simple-content" id="mainContent" style="display: none;">
+            <div class="center-animation">
+                <span class="pulse-heart">💖</span>
+            </div>
+            <h1 class="title simple-title">my shayla</h1>
+            <div class="photo-grid simple-photos">
+                <img src="shayla/IMG-20240815-WA0060.jpg" alt="Shayla 1">
+                <img src="shayla/3b28e5a8-559d-4434-bfcc-8735a610fb76.jpg" alt="Shayla 2">
+                <img src="shayla/acb7d39b-ce10-419c-933c-e285a8efcbee.jpg" alt="Shayla 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
